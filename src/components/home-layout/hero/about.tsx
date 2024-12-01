@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="bg-[#023002] -mt-32">
       <div className="lg:px-40  py-8">
-        <div className="grid grid-flow-col  pt-44 justify-between gap-40">
+        <div className="grid lg:grid-flow-col  pt-44 justify-between lg:gap-40">
           <p>About Us</p>
           <p className="text-5xl font-semibold text-white">
             ABENOL, short for "A Better Nation in Our Lifetime," encapsulates
