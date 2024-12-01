@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <section>
-      <p>hi</p>
+      <p className="grid underline font-semibold">hi</p>
     </section>
   );
 };
