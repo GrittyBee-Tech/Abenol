@@ -14,7 +14,7 @@ const Support = () => {
             part of the change.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-8 p-5">
+        <div className="grid lg:grid-cols-3 gap-8 p-5">
           {SUPPORTS_SCHEMA.map(() => {
             return (
               <div className="rounded-lg bg-white shadow-md p-8">
