@@ -26,12 +26,12 @@ const Projects = () => {
                   <p className="text-[#141414] lg:text-base text-xs font-Inter lg:h-24 mt-2 lg:mt-5 ">
                     {r.content}
                   </p>
-                  <button
-                    onClick={() => navigate('/lges-project')}
+                  <a
+                    href={r.link}
                     className="  w-40  lg:block  lg:mt-2 text-sm bg-[#99FF99] hover:text-white hover:bg-[#F8931F] font-medium font-Inter rounded-3xl py-3 px-7 text-[#000100]"
                   >
                     {r.slug}
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

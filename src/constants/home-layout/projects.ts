@@ -11,6 +11,7 @@ export const PROJECTS_SCHEMA = [
     content:
       'Our Local Government Election Sensitization, coined LGES Project, is a storytelling and content creation sensitization campaign dedicated to increasing civic awareness and participation, particularly at the local government level.',
     slug: 'Learn More ',
+    link: '/lges-project',
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ export const PROJECTS_SCHEMA = [
     content:
       'A campaign focused on encouraging young Nigerians to register to vote and participate in elections. PVC WAKA was selected to represent Nigeria in the ongoing UNDP SAHEL campaign.',
     slug: 'Learn More ',
+    link: '/lges-project',
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const PROJECTS_SCHEMA = [
     content:
       'An initiative that promotes charitable actions of young Nigerians, giving back to our country Nigeria, highlighting the beauty, culture, and resilience of the nation.',
     slug: 'Learn More ',
+    link: '/lges-project',
   },
   {
     id: 4,
@@ -35,5 +38,6 @@ export const PROJECTS_SCHEMA = [
     content:
       'An initiative that promotes charitable actions of young Nigerians, giving back to our country Nigeria, highlighting the beauty, culture, and resilience of the nation.',
     slug: 'Coming Soon ',
+    link: '/lges-project',
   },
 ];

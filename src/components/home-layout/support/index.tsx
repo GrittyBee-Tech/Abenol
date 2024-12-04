@@ -15,7 +15,7 @@ const Support = () => {
           </p>
         </div>
         <div className="grid lg:grid-cols-3 mt-5 gap-8 p-5">
-          <div className="rounded-3xl bg-white shadow-md p-8">
+          <div className="rounded-3xl bg-white  p-8 hover:shadow-[#0a120f] shadow-2xl transition-opacity duration-300 ease-in-out opacity-100 z-10">
             <p className="text-[#141414] font-bold text-2xl font-Inter">
               Wema Bank
             </p>
@@ -30,7 +30,7 @@ const Support = () => {
               Account Number(USD): <span className="font-bold">0621392779</span>
             </p>
           </div>
-          <div className="rounded-3xl bg-[#80CFF1] grid gap-3 shadow-md p-8">
+          <div className="rounded-3xl bg-[#80CFF1] hover:shadow-[#0a120f]   grid gap-3 shadow-2xl p-8">
             <p className="text-[#141414] font-bold text-2xl font-Inter">
               Union Bank
             </p>
@@ -54,12 +54,21 @@ const Support = () => {
               Account Number(EUR): <span className="font-bold">0203745932</span>
             </p>
           </div>
-          <div className="rounded-3xl  bg-[#262C55] shadow-md p-8">
+          <div className="rounded-3xl hover:shadow-[#0a120f] shadow-2xl bg-[#262C55]  p-8">
             <p className="text-white font-bold text-2xl font-Inter">
               Flutterwave
             </p>
-            <p className="text-white mt-4">Donation Link</p>
-            <a href="bit.ly/donatetoABENOL"></a>
+            <p className="text-white font-normal font-Inter mt-4">
+              Donation Link
+            </p>
+
+            <a
+              className="underline font-bold font-Inter text-white"
+              href="https://bit.ly/donatetoABENOL"
+              target="_blank"
+            >
+              bit.ly/donatetoABENOL
+            </a>
           </div>
         </div>
       </div>
