@@ -18,12 +18,12 @@ const Projects = () => {
                   <img src={r.image} alt="Project" />
                 </span>
               </div>
-              <div className=" grid  justify-items-center">
-                <div className="bg-white  grid gap-3 shadow-md rounded-2xl lg:p-5 p-3 absolute  w-[90%] lg:bottom-2 -bottom-14">
-                  <p className="text-[#141414] font-bold font-Inter lg:h-3 text-sm lg:text-xl">
+              <div className=" grid   justify-items-center">
+                <div className="bg-white hover:bg-[#090e02] text-[#141414]  hover:text-white grid gap-3 shadow-md rounded-2xl lg:p-5 p-3 absolute  w-[90%] lg:bottom-2 -bottom-14">
+                  <p className="font-bold font-Inter lg:h-3 text-sm lg:text-xl">
                     {r.header}
                   </p>
-                  <p className="text-[#141414] lg:text-base text-xs font-Inter lg:h-24 mt-2 lg:mt-5 ">
+                  <p className="lg:text-base text-xs font-Inter lg:h-24 mt-2 lg:mt-5 ">
                     {r.content}
                   </p>
                   <a
