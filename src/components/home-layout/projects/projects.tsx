@@ -1,36 +1,36 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import image from '/src/assets/images/lges.png';
 import { PROJECTS_SCHEMA } from '../../../constants/home-layout/projects';
 
 const Projects = () => {
   const navigate = useNavigate();
   return (
     <section className="lg:px-40 px-8 lg:py-24 py-8">
-      <div className="grid lg:grid-cols-2 gap-11">
-        {PROJECTS_SCHEMA.map(() => {
+      <p className="grid justify-items-center text-[#000100] font-Inter font-bold text-2xl lg:text-6xl">
+        Our Projects
+      </p>
+      <div className="grid lg:grid-cols-2 mt-9 lg:gap-11 gap-24">
+        {PROJECTS_SCHEMA.map((r, i) => {
           return (
-            <div className="relative">
+            <div key={i} className="relative ">
               <div>
                 <span>
-                  <img src={image} alt="Lges" />
+                  <img src={r.image} alt="Project" />
                 </span>
               </div>
-              <div className=" grid justify-items-center">
-                <div className="bg-white shadow-md rounded-2xl p-5 absolute  w-[90%] bottom-7">
-                  <p>LGES Project</p>
-                  <p>
-                    Our Local Government Election Sensitization, coined LGES
-                    Project, is a storytelling and content creation
-                    sensitization campaign dedicated to increasing civic
-                    awareness and participation, particularly at the local
-                    government level.
+              <div className=" grid  justify-items-center">
+                <div className="bg-white  grid gap-3 shadow-md rounded-2xl lg:p-5 p-3 absolute  w-[90%] lg:bottom-2 -bottom-14">
+                  <p className="text-[#141414] font-bold font-Inter lg:h-3 text-sm lg:text-xl">
+                    {r.header}
+                  </p>
+                  <p className="text-[#141414] lg:text-base text-xs font-Inter lg:h-24 mt-2 lg:mt-5 ">
+                    {r.content}
                   </p>
                   <button
-                    onClick={() => navigate('/donate')}
-                    className=" lg:block hidden bg-[#99FF99] hover:text-white hover:bg-[#F8931F] font-medium font-Inter rounded-3xl py-3 px-7 text-[#000100]"
+                    onClick={() => navigate('/lges-project')}
+                    className="  w-40  lg:block  lg:mt-2 text-sm bg-[#99FF99] hover:text-white hover:bg-[#F8931F] font-medium font-Inter rounded-3xl py-3 px-7 text-[#000100]"
                   >
-                    Learn More
+                    {r.slug}
                   </button>
                 </div>
               </div>

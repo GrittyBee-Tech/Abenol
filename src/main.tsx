@@ -5,7 +5,12 @@ import './index.css';
 
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/home';
+import About from './pages/about';
 import Navbar from './components/generic-layouts/navbar';
+
+import Donate from './pages/donate';
+import Lges from './pages/lges';
+import Pvc from './pages/pvc';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +24,26 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+      },
+      {
+        path: '/about',
+        element: <About />,
+      },
+      {
+        path: '/donate',
+        element: <Donate />,
+      },
+      {
+        path: '/lges-project',
+        element: <Lges />,
+      },
+      {
+        path: '/pvc-project',
+        element: <Pvc />,
+      },
+      {
+        path: '/donate',
+        element: <Donate />,
       },
     ],
   },

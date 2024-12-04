@@ -1,17 +1,17 @@
 import React from 'react';
-import Hero from '../components/home-layout/hero/hero';
-import About from '../components/home-layout/hero/about';
-import Projects from '../components/home-layout/projects/projects';
+import Hero from '../components/about-layout/hero';
+import Team from '../components/about-layout/team';
 import Join from '../components/home-layout/join/join';
 import Support from '../components/home-layout/support';
+import WhoWeAre from '../components/about-layout/about';
 import Footer from '../components/generic-layouts/footer';
 
-const Home = () => {
+const About = () => {
   return (
     <section>
       <Hero />
-      <About />
-      <Projects />
+      <WhoWeAre />
+      <Team />
       <Join />
       <Support />
       <Footer />
@@ -19,4 +19,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;

@@ -42,7 +42,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       `${
                         isActive
-                          ? 'border-b-4 text-[#F8931F] border-[#ED1C24] font-medium'
+                          ? 'border-b-4 text-[#39af39] border-[#2b7d2b] font-medium'
                           : ''
                       } py-2 text-[#000000] font-Inter cursor-pointer`
                     }
@@ -55,7 +55,7 @@ const Navbar = () => {
 
             <button
               onClick={() => navigate('/donate')}
-              className=" lg:block hidden bg-[#99FF99] hover:bg-[#F8931F] font-medium font-Inter rounded-3xl py-3 px-7 text-white"
+              className=" lg:block hidden bg-[#99FF99] hover:text-white hover:bg-[#F8931F] font-medium font-Inter rounded-3xl py-3 px-7 text-black"
             >
               Donate
             </button>
