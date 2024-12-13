@@ -19,7 +19,7 @@ const Join = () => {
           </p>
           <div className="grid lg:justify-start justify-center">
             <button
-              onClick={() => navigate('/donate')}
+              onClick={() => navigate('/about')}
               className=" lg:block  mt-9 bg-[#023002] hover:text-white hover:bg-[#F8931F] text-sm font-medium font-Inter rounded-3xl py-3 px-7 text-white"
             >
               Learn More

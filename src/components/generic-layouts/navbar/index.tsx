@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import logo from '/src/assets/brand/logo.png';
+import icon from '/src/assets/images/nav-icon.png';
 
 import { HashLink } from 'react-router-hash-link';
 
@@ -23,11 +24,11 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <section className="">
+    <section className="relative ">
       {/* <MobileNavbar navOpen={navOpen} setNavOpen={setNavOpen} /> */}
-      <nav className="lg:px-40 px-6 py-2 grid items-center">
+      <nav className="lg:px-40  pt-7 px-6 py-2 grid items-center">
         <div className=" grid grid-flow-col justify-between items-center gap-6 ">
-          <NavLink to={''}>
+          <NavLink to={'/'}>
             <span>
               {' '}
               <img src={logo} alt="abenol logo" />
@@ -71,6 +72,9 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <span className=" lg:block hidden absolute top-0 left-0">
+        <img className=" rounded-3xl lg:w-full" src={icon} alt="hero-image" />
+      </span>
     </section>
   );
 };

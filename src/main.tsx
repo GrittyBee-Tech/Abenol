@@ -11,6 +11,7 @@ import Navbar from './components/generic-layouts/navbar';
 import Donate from './pages/donate';
 import Lges from './pages/lges';
 import Pvc from './pages/pvc';
+import JoinAbenol from './pages/join';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About />,
+      },
+      {
+        path: '/join',
+        element: <JoinAbenol />,
       },
       {
         path: '/donate',

@@ -1,11 +1,12 @@
 import React from 'react';
-import { SUPPORTS_SCHEMA } from '../../../constants/home-layout/support';
+import icon from '/src/assets/images/support-icon.png';
+import icon2 from '/src/assets/images/support-icon2.png';
 
 const Support = () => {
   return (
     <section className="lg:px-40 px-8 lg:py-24 py-8">
-      <div className="rounded-2xl bg-[#99FF99]">
-        <div className="grid justify-items-center pt-6 gap-6">
+      <div className="rounded-2xl bg-[#99FF99] relative ">
+        <div className="grid pt-6 justify-items-center  gap-6">
           <p className="font-bold font-Inter lg:text-6xl text-2xl  w-9/12 lg:w-5/12 text-[#141414] pt-9 text-center">
             Support this wonderful dream
           </p>
@@ -14,7 +15,7 @@ const Support = () => {
             part of the change.
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 mt-5 gap-8 p-5">
+        <div className="grid lg:grid-cols-3 mt-5 gap-8 p-5 lg:p-16">
           <div className="rounded-3xl bg-white  p-8 hover:shadow-[#0a120f] shadow-2xl transition-opacity duration-300 ease-in-out opacity-100 z-10">
             <p className="text-[#141414] font-bold text-2xl font-Inter">
               Wema Bank
@@ -30,7 +31,7 @@ const Support = () => {
               Account Number(USD): <span className="font-bold">0621392779</span>
             </p>
           </div>
-          <div className="rounded-3xl bg-[#80CFF1] hover:shadow-[#0a120f]   grid gap-3 shadow-2xl p-8">
+          <div className="rounded-3xl bg-[#80CFF1] z-50 hover:shadow-[#0a120f]   grid gap-3 shadow-2xl p-8">
             <p className="text-[#141414] font-bold text-2xl font-Inter">
               Union Bank
             </p>
@@ -54,7 +55,7 @@ const Support = () => {
               Account Number(EUR): <span className="font-bold">0203745932</span>
             </p>
           </div>
-          <div className="rounded-3xl hover:shadow-[#0a120f] shadow-2xl bg-[#262C55]  p-8">
+          <div className="rounded-3xl hover:shadow-[#0a120f] shadow-2xl z-50 bg-[#262C55]  p-8">
             <p className="text-white font-bold text-2xl font-Inter">
               Flutterwave
             </p>
@@ -71,6 +72,12 @@ const Support = () => {
             </a>
           </div>
         </div>
+        <span className=" lg:block hidden absolute top-0  right-0">
+          <img className="" src={icon} alt="hero-image" />
+        </span>{' '}
+        <span className=" lg:block hidden absolute bottom-0  left-0">
+          <img className="" src={icon2} alt="hero-image" />
+        </span>
       </div>
     </section>
   );

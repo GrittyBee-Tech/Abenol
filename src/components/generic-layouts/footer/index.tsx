@@ -10,7 +10,7 @@ const Footer = () => {
     <section className="lg:px-40 px-8 py-8 lg:py-3 ">
       <div className="bg-[#141414] px-7 py-4 rounded-3xl">
         <div className="grid lg:grid-flow-col items-center justify-between">
-          <div className="grid grid-flow-col items-center gap-2">
+          <div className="grid grid-flow-col items-center gap-5">
             <img src={image1} alt="" />
             <img src={image3} alt="" />
             <img src={image2} alt="" />

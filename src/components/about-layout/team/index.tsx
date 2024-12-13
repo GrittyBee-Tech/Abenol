@@ -1,5 +1,4 @@
 import React from 'react';
-import image from '/src/assets/images/team.png';
 import { TEAM_SCHEMA } from '../../../constants/about-layout/team';
 
 const Team = () => {
@@ -17,16 +16,14 @@ const Team = () => {
         </div>
 
         <div className="grid lg:grid-cols-4 mt-9 gap-6">
-          {TEAM_SCHEMA.map(() => {
+          {TEAM_SCHEMA.map((r, i) => {
             return (
-              <div>
-                <img className="rounded-3xl" src={image} alt="team" />
+              <div key={i}>
+                <img className="rounded-2xl h-96" src={r.image} alt="team" />
                 <div className="grid gap-1 mt-2 justify-items-center">
-                  <p className="text-white font-bold font-Inter">
-                    Eromosele Adene (Eromz)
-                  </p>
-                  <p className="text-white text-sm font-inter">
-                    Founder & Director, Abenol
+                  <p className="text-white font-bold font-Inter">{r.header}</p>
+                  <p className="text-white w-2/3 text-center text-sm font-inter">
+                    {r.content}
                   </p>
                 </div>
               </div>
