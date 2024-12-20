@@ -15,7 +15,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-4 justify-center mt-9 gap-6">
+        <div className="grid lg:grid-cols-4  md:grid-cols-2 justify-center mt-9 gap-6 lg:gap-6">
           {TEAM_SCHEMA.map((r, i) => {
             return (
               <div key={i}>

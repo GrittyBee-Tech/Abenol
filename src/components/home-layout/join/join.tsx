@@ -28,7 +28,7 @@ const Join = () => {
               </button>
             </div>
           </div>
-          <div>
+          <div className=" grid lg:justify-normal md:justify-items-center">
             <img src={image3} alt="video" />
           </div>
         </div>

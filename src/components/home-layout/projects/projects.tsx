@@ -5,8 +5,8 @@ import { PROJECTS_SCHEMA } from '../../../constants/home-layout/projects';
 const Projects = () => {
   const navigate = useNavigate();
   return (
-    <section className="lg:px-40 px-8 lg:py-24 py-8">
-      <p className="grid justify-items-center text-[#000100] font-Inter font-bold text-2xl lg:text-6xl">
+    <section className="md:px-40 px-8 lg:py-24 py-8">
+      <p className="grid justify-items-center text-[#000100] font-Inter font-bold text-2xl md:text-6xl">
         Our Projects
       </p>
       <div className="grid lg:grid-cols-2 mt-9 lg:gap-11 gap-24">
