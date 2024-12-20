@@ -9,13 +9,13 @@ const Team = () => {
           <p className="text-white font-bold font-Inter text-3xl lg:text-5xl">
             Meet the team
           </p>
-          <p className="text-white font-semibold text-center mt-4 w-6/12 font-Inter ">
+          <p className="text-white font-semibold text-center mt-4 lg:w-6/12 font-Inter ">
             We are a team of young vibrant volunteers, using our skills,
             experience and passion to make an impact.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-4 mt-9 gap-6">
+        <div className="grid lg:grid-cols-4 justify-center mt-9 gap-6">
           {TEAM_SCHEMA.map((r, i) => {
             return (
               <div key={i}>

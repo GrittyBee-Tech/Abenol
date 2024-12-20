@@ -1,12 +1,11 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import logo from '/src/assets/brand/logo.png';
-import icon from '/src/assets/images/nav-icon.png';
-
 import { HashLink } from 'react-router-hash-link';
-
-import React from 'react';
 import { NAV_SCHEMA } from '../../../constants/home-layout/nav';
+import MobileNavbar from '../mobilenavbar';
+import { Icon } from '../../ui/icons';
+import { ICONS } from '../../ui/icons/types';
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState<Boolean>(false);
@@ -24,8 +23,9 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <section className="relative ">
+    <section className="">
       {/* <MobileNavbar navOpen={navOpen} setNavOpen={setNavOpen} /> */}
+
       <nav className="lg:px-40  pt-7 px-6 py-2 grid items-center">
         <div className=" grid grid-flow-col justify-between items-center gap-6 ">
           <NavLink to={'/'}>
@@ -62,19 +62,19 @@ const Navbar = () => {
             </button>
           </div>
 
-          <div className="lg:hidden">
+          <div className="lg:hidden block">
             <span
-              onClick={() => setNavOpen(true)}
+              onClick={() => {
+                console.log('Hamburger icon clicked');
+                setNavOpen((prevState) => !prevState);
+              }}
               className={navOpen ? 'rotate-90' : 'rotate-0'}
             >
-              {/* <Icon type={ICONS.hamburger_icon} size={25} color="#090909" /> */}
+              <Icon type={ICONS.hamburger_icon} size={25} color="#090909" />
             </span>
           </div>
         </div>
       </nav>
-      <span className=" lg:block hidden absolute top-0 left-0">
-        <img className=" rounded-3xl lg:w-full" src={icon} alt="hero-image" />
-      </span>
     </section>
   );
 };

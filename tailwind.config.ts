@@ -18,30 +18,10 @@ const config: Config = {
       Inter: ['Inter', 'sans-serif'],
     },
     backgroundImage: {
-      'hero-pattern':
-        "url('/src/assets/images/landing-page/hero-background-image.png')",
-      'business-pattern':
-        "url('/src/assets/images/landing-page/business-background-image.png')",
-      'scholarship-pattern':
-        "url('/src/assets/images/landing-page/scholarship-background-image.png')",
-      'values-pattern':
-        "url('/src/assets/images/landing-page/core-values.png')",
-      'gallery-pattern':
-        "url('/src/assets/images/landing-page/gallery-background.png')",
-      'footer-pattern':
-        "url('/src/assets/images/landing-page/footer-background.png')",
-      'brief-pattern':
-        "url('/src/assets/images/landing-page/brief-background.png')",
-      'board-pattern':
-        "url('/src/assets/images/landing-page/board-background.png')",
-      'involved-pattern':
-        "url('/src/assets/images/involved/involved-background.png')",
-      'achievement-pattern':
-        "url('/src/assets/images/achievements/achievement-background.png')",
-      'about-pattern':
-        "url('/src/assets/images/about/about-hero-background.png')",
-      'about-story-pattern':
-        "url('/src/assets/images/about/story-background.png')",
+      'hero-pattern': "url('/src/assets/images/hero-background-image.png')",
+      'support-pattern':
+        "url('/src/assets/images/support-background-image.png')",
+      'about-pattern': "url('/src/assets/images/about-background-image.png')",
     },
     colors: {
       transparent: 'transparent',

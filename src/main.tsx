@@ -6,8 +6,6 @@ import './index.css';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
-import Navbar from './components/generic-layouts/navbar';
-
 import Donate from './pages/donate';
 import Lges from './pages/lges';
 import Pvc from './pages/pvc';
@@ -17,7 +15,6 @@ const router = createBrowserRouter([
   {
     element: (
       <>
-        <Navbar />
         <Outlet />
       </>
     ),
