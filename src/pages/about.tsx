@@ -14,7 +14,6 @@ const About = () => {
       <Team />
       <Join />
       <Support />
-      <Footer />
     </section>
   );
 };

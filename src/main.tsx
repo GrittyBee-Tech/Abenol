@@ -10,12 +10,14 @@ import Donate from './pages/donate';
 import Lges from './pages/lges';
 import Pvc from './pages/pvc';
 import JoinAbenol from './pages/join';
+import Footer from './components/generic-layouts/footer';
 
 const router = createBrowserRouter([
   {
     element: (
       <>
         <Outlet />
+        <Footer />
       </>
     ),
     children: [
