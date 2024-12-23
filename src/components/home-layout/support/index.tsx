@@ -14,23 +14,25 @@ const Support = () => {
               a part of the change.
             </p>
           </div>
-          <div className="grid lg:grid-cols-3   xt-4  p-7   lg:gap-3 gap-8 ">
+          <div className="grid lg:grid-cols-3 xt-4  p-7 lg:gap-3 gap-8 ">
             <div className="rounded-3xl bg-white  p-8 hover:shadow-[#0a120f] shadow-2xl transition-opacity duration-300 ease-in-out opacity-100 z-10">
               <p className="text-[#141414] font-bold text-2xl font-Inter">
                 Wema Bank
               </p>
               <p className="font-inter mt-4 font-normal">
                 Account Name:{' '}
-                <span className="font-bold">ABENOL Foundation LTD/GTE</span>
+                <span className="font-bold font-Inter">
+                  ABENOL Foundation LTD/GTE
+                </span>
               </p>
-              <p className="font-inter mt-4 font-normal">
-                Account Number(NGN):{' '}
-                <span className="font-bold">0125016610</span>
-              </p>
-              <p className="font-inter mt-1 font-normal">
-                Account Number(USD):{' '}
-                <span className="font-bold">0621392779</span>
-              </p>
+              <div className="grid grid-flow-col mt-4 font-Inter items-center w-max gap-4">
+                <p className=" font-normal">Account Number(NGN): </p>
+                <span className="  font-bold">0125016610</span>
+              </div>
+              <div className="grid grid-flow-col mt-2 font-Inter items-center w-max gap-4">
+                <p className=" font-normal">Account Number(USD): </p>
+                <span className="  font-bold">0621392779</span>
+              </div>
             </div>
             <div className="rounded-3xl bg-[#80CFF1] z-50 hover:shadow-[#0a120f]   grid gap-3 shadow-2xl p-8">
               <p className="text-[#141414] font-bold text-2xl font-Inter">
@@ -40,23 +42,22 @@ const Support = () => {
                 Account Name:{' '}
                 <span className="font-bold">ABENOL Foundation LTD/GTE</span>
               </p>
-              <p className="font-inter font-normal">
-                Account Number(NGN):{' '}
-                <span className="font-bold"> 0203588698</span>
-              </p>
-
-              <p className="font-inter font-normal">
-                Account Number(USD):{' '}
-                <span className="font-bold">0203744430</span>
-              </p>
-              <p className="font-inter font-normal">
-                Account Number(GBP):
-                <span className="font-bold">0203745097</span>
-              </p>
-              <p className="font-inter font-normal">
-                Account Number(EUR):{' '}
-                <span className="font-bold">0203745932</span>
-              </p>
+              <div className="grid grid-flow-col w-max gap-6">
+                <p className="font-inter font-normal ">Account Number(NGN):</p>
+                <span className="font-inter font-bold">0203588698</span>
+              </div>
+              <div className="grid grid-flow-col w-max gap-6">
+                <p className="font-inter font-normal ">Account Number(USD):</p>
+                <span className=" font-Inter font-bold ">0203744430</span>
+              </div>
+              <div className="grid grid-flow-col w-max gap-6">
+                <p className="font-inter font-normal">Account Number(GBP):</p>
+                <span className=" font-Inter font-bold">0203745097</span>
+              </div>
+              <div className="grid grid-flow-col w-max gap-6">
+                <p className="font-inter font-normal">Account Number(EUR):</p>
+                <span className=" font-Inter font-bold">0203745932</span>
+              </div>
             </div>
             <div className="rounded-3xl hover:shadow-[#0a120f] shadow-2xl z-50 bg-[#262C55]  p-8">
               <p className="text-white font-bold text-2xl font-Inter">
@@ -65,7 +66,6 @@ const Support = () => {
               <p className="text-white font-normal font-Inter mt-4">
                 Donation Link
               </p>
-
               <a
                 className="underline font-bold font-Inter text-white"
                 href="https://bit.ly/donatetoABENOL"
