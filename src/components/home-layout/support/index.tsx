@@ -2,7 +2,7 @@ import React from 'react';
 
 const Support = () => {
   return (
-    <section className="grid h-auto justify-items-center lg:px-0 px-6 ">
+    <section className="grid h-auto justify-items-center  ">
       <div className="rounded-2xl  bg-support-pattern bg-no-repeat  ">
         <div>
           <div className="grid justify-items-center gap-3">
