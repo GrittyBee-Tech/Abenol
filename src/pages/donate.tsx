@@ -7,8 +7,10 @@ const Donate = () => {
   return (
     <section>
       <Navbar />
-      <Support />
-      <Footer />
+      <div className="mt-7 ">
+        <Support />
+        <Footer />
+      </div>
     </section>
   );
 };

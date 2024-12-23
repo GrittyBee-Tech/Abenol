@@ -24,10 +24,9 @@ const Navbar = () => {
 
   return (
     <section className="">
-      <div className="lg:hidden hidden">
-         <MobileNavbar navOpen={navOpen} setNavOpen={setNavOpen} /> 
+      <div className="lg:hidden overflow-hidden">
+        <MobileNavbar navOpen={navOpen} setNavOpen={setNavOpen} />
       </div>
-      
 
       <nav className="lg:px-40  pt-7 px-6 py-2 grid items-center">
         <div className=" grid grid-flow-col justify-between items-center gap-6 ">

@@ -25,11 +25,11 @@ const Footer = () => {
               Privacy policy
             </p>
           </div>
-          <div className="grid grid-flow-col gap-3">
-            <p className="text-[#FFFFFF80] font-Inter text-sm ">
+          <div className="grid lg:justify-normal justify-center lg:text-left text-center  lg:grid-flow-col gap-2 lg:gap-3">
+            <p className="text-[#FFFFFF80] font-Inter text-xs ">
               © 2024 ABENOL Foundation
             </p>
-            <p className="text-[#FFFFFF80] font-Inter text-sm ">
+            <p className="text-[#FFFFFF80] font-Inter text-xs ">
               All Right Reserved
             </p>
           </div>
