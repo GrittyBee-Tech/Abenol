@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <section className="">
-      <div className="lg:hidden block">
+      <div className="lg:hidden hidden">
          <MobileNavbar navOpen={navOpen} setNavOpen={setNavOpen} /> 
       </div>
       
