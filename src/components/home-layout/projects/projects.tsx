@@ -28,7 +28,7 @@ const Projects = () => {
                   </p>
                   <a
                     href={r.link}
-                    className="  w-40   lg:mt-2 text-sm bg-[#99FF99] hover:text-white hover:bg-[#F8931F] font-semibold font-Inter rounded-3xl py-3 px-7 text-[#000100]"
+                    className="  w-40   lg:mt-7 text-sm bg-[#99FF99] hover:text-white hover:bg-[#F8931F] font-semibold font-Inter rounded-3xl py-3 px-7 text-[#000100]"
                   >
                     {r.slug}
                   </a>

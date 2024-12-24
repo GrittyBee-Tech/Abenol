@@ -22,7 +22,7 @@ const MobileNavbar = ({
   }, [location.pathname]);
 
   return (
-    <section className="h-full z-50">
+    <section className="h-[100vh] z-50">
       {navOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-white  z-50">
           {/* Close Button */}
