@@ -7,7 +7,7 @@ import image4 from '/src/assets/images/youtube.png';
 
 const Footer = () => {
   return (
-    <section className="lg:px-40 px-8 py-8 lg:py-3 ">
+    <section className=" grid lg:px-20 lg:justify-normal justify-center py-8 lg:py-3 ">
       <div className="bg-[#141414] px-7 py-4 rounded-3xl">
         <div className="grid lg:grid-flow-col items-center justify-between">
           <div className="grid grid-flow-col items-center gap-5">
@@ -27,7 +27,7 @@ const Footer = () => {
               <img src={image} alt="facebook" />
             </a>
           </div>
-          <div className="grid grid-flow-col gap-3">
+          <div className="grid lg:justify-normal justify-center grid-flow-col gap-3">
             <p className="text-[#FFFFFF80] font-Inter text-sm ">
               Terms of Service
             </p>

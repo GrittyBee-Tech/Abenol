@@ -8,7 +8,7 @@ const About = () => {
       <div className="relative">
         <div className="lg:px-40   px-8 lg:py-32 py-8">
           <div className=" grid lg:grid-flow-col  pt-24 justify-between lg:gap-52">
-            <p className="grid lg:justify-start justify-items-center font-semibold font-Inter text-lg text-white">
+            <p className="grid lg:justify-start xt:text-3xl justify-items-center font-semibold font-Inter text-lg text-white">
               About Us
             </p>
             <p className="lg:text-5xl text-2xl text-center lg:text-left font-semibold font-Inter  text-white">

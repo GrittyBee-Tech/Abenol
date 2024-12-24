@@ -7,6 +7,9 @@ import icon6 from '/src/assets/brand/serap.png';
 import icon7 from '/src/assets/brand/udge.png';
 import icon8 from '/src/assets/brand/weVote.png';
 import icon9 from '/src/assets/brand/wilson.png';
+import icon10 from '/src/assets/brand/celebration.png';
+import icon11 from '/src/assets/brand/undp.png';
+import icon12 from '/src/assets/brand/yiaga.png';
 
 const AbenolPartners = () => {
   return (
@@ -26,6 +29,9 @@ const AbenolPartners = () => {
           <img src={icon7} alt="partner" />
           <img src={icon8} alt="partner" />
           <img src={icon9} alt="partner" />
+          <img src={icon10} alt="partner" />
+          <img src={icon11} alt="partner" />
+          <img src={icon12} alt="partner" />
           <img src={icon} alt="partner" />
           <img src={icon3} alt="partner" />
           <img src={icon4} alt="partner" />
@@ -42,6 +48,11 @@ const AbenolPartners = () => {
           <img src={icon5} alt="partner" />
           <img src={icon6} alt="partner" />
           <img src={icon7} alt="partner" />
+          <img src={icon8} alt="partner" />
+          <img src={icon9} alt="partner" />
+          <img src={icon10} alt="partner" />
+          <img src={icon11} alt="partner" />
+          <img src={icon12} alt="partner" />
         </div>
       </div>
     </section>
