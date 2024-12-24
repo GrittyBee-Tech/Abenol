@@ -3,6 +3,7 @@ import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { NAV_SCHEMA } from '../../../constants/home-layout/nav';
 import { Icon } from '../../ui/icons';
 import { ICONS } from '../../ui/icons/types';
+import logo from '/src/assets/brand/logo.png';
 import React from 'react';
 
 const MobileNavbar = ({
@@ -25,12 +26,20 @@ const MobileNavbar = ({
       {navOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-white  z-50">
           {/* Close Button */}
-          <button
-            onClick={() => setNavOpen(false)}
-            className="absolute font-Inter text-[#099900] top-4 right-4 text-xl font-bold"
-          >
-            X
-          </button>
+          <div className="p-4">
+            <NavLink to={'/'}>
+              <span className="">
+                {' '}
+                <img className="" src={logo} alt="abenol logo" />
+              </span>
+            </NavLink>
+            <button
+              onClick={() => setNavOpen(false)}
+              className="absolute font-Inter text-[#099900] top-9 right-4 text-xl font-bold"
+            >
+              X
+            </button>
+          </div>
 
           {/* Mobile Navbar Content */}
           <div className="flex flex-col items-center justify-center h-full text-[#090909]  z-50">
@@ -55,7 +64,7 @@ const MobileNavbar = ({
 
             <button
               onClick={() => navigate('/donate')}
-              className="bg-[#99FF99] hover:text-white hover:bg-[#F8931F] font-medium font-Inter rounded-3xl py-3 px-7 text-black"
+              className="bg-[#99FF99] mt-6 hover:text-white hover:bg-[#F8931F] font-medium font-Inter rounded-3xl py-3 px-7 text-black"
             >
               Donate
             </button>
