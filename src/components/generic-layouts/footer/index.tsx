@@ -15,16 +15,16 @@ const Footer = () => {
               <img src={image1} alt="tiktok" />
             </a>
             <a href="https://x.com/Abenolng">
-              <img src={image3} alt="" />
+              <img src={image3} alt="x" />
             </a>
             <a href="https://www.instagram.com/abenolng/">
-              <img src={image2} alt="" />
+              <img src={image2} alt="instagram" />
             </a>
             <a href="https://www.youtube.com/@abenolng">
-              <img src={image4} alt="" />
+              <img src={image4} alt="youtube" />
             </a>
             <a href="https://www.facebook.com/abenolng">
-              <img src={image} alt="" />
+              <img src={image} alt="facebook" />
             </a>
           </div>
           <div className="grid grid-flow-col gap-3">
