@@ -19,7 +19,7 @@ const Team = () => {
           {TEAM_SCHEMA.map((r, i) => {
             return (
               <div key={i}>
-                <img className="rounded-2xl " src={r.image} alt="team" />
+                <img className="rounded-2xl  w-full" src={r.image} alt="team" />
                 <div className="grid gap-1 mt-2 justify-items-center">
                   <p className="text-white font-bold font-Inter">{r.header}</p>
                   <p className="text-white w-2/3 text-center text-sm font-inter">

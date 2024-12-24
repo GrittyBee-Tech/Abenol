@@ -11,11 +11,21 @@ const Footer = () => {
       <div className="bg-[#141414] px-7 py-4 rounded-3xl">
         <div className="grid lg:grid-flow-col items-center justify-between">
           <div className="grid grid-flow-col items-center gap-5">
-            <img src={image1} alt="" />
-            <img src={image3} alt="" />
-            <img src={image2} alt="" />
-            <img src={image4} alt="" />
-            <img src={image} alt="" />
+            <a href="https://www.tiktok.com/@abenolng">
+              <img src={image1} alt="tiktok" />
+            </a>
+            <a href="https://x.com/Abenolng">
+              <img src={image3} alt="" />
+            </a>
+            <a href="https://www.instagram.com/abenolng/">
+              <img src={image2} alt="" />
+            </a>
+            <a href="https://www.youtube.com/@abenolng">
+              <img src={image4} alt="" />
+            </a>
+            <a href="https://www.facebook.com/abenolng">
+              <img src={image} alt="" />
+            </a>
           </div>
           <div className="grid grid-flow-col gap-3">
             <p className="text-[#FFFFFF80] font-Inter text-sm ">
