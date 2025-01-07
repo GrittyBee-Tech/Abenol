@@ -12,6 +12,8 @@ import Pvc from './pages/pvc';
 import JoinAbenol from './pages/join';
 import Footer from './components/generic-layouts/footer';
 
+import Belleful from './pages/belle';
+
 const router = createBrowserRouter([
   {
     element: (
@@ -44,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: '/pvc-project',
         element: <Pvc />,
+      },
+      {
+        path: '/belleful-project',
+        element: <Belleful />,
       },
       {
         path: '/donate',
