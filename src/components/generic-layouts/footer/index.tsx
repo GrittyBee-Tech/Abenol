@@ -12,19 +12,39 @@ const Footer = () => {
         <div className="lg:justify-normal mx-auto justify-items-center">
           <div className="grid lg:grid-flow-col items-center justify-between">
             <div className="grid grid-flow-col items-center gap-5">
-              <a href="https://www.tiktok.com/@abenolng">
+              <a
+                href="https://www.tiktok.com/@abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image1} alt="tiktok" />
               </a>
-              <a href="https://x.com/Abenolng">
+              <a
+                href="https://x.com/Abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image3} alt="x" />
               </a>
-              <a href="https://www.instagram.com/abenolng/">
+              <a
+                href="https://www.instagram.com/abenolng/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image2} alt="instagram" />
               </a>
-              <a href="https://www.youtube.com/@abenolng">
+              <a
+                href="https://www.youtube.com/@abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image4} alt="youtube" />
               </a>
-              <a href="https://www.facebook.com/abenolng">
+              <a
+                href="https://www.facebook.com/abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image} alt="facebook" />
               </a>
             </div>

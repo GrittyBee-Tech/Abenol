@@ -76,19 +76,39 @@ const Uess = () => {
               <p className="font-bold text-[#141414] font-Inter text-sm">
                 Follow us to learn more
               </p>
-              <a href="https://www.tiktok.com/@abenolng">
+              <a
+                href="https://www.tiktok.com/@abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image1} alt="tiktok" />
               </a>
-              <a href="https://x.com/Abenolng">
+              <a
+                href="https://x.com/Abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image3} alt="x" />
               </a>
-              <a href="https://www.instagram.com/abenolng/">
+              <a
+                href="https://www.instagram.com/abenolng/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image2} alt="instagram" />
               </a>
-              <a href="https://www.youtube.com/@abenolng">
+              <a
+                href="https://www.youtube.com/@abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={image4} alt="youtube" />
               </a>
-              <a href="https://www.facebook.com/abenolng">
+              <a
+                href="https://www.facebook.com/abenolng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img className="w-7 h-7" src={image5} alt="facebook" />
               </a>
             </div>
