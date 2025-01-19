@@ -9,6 +9,7 @@ const Donate = () => {
       <Navbar />
       <div className="mt-7 ">
         <Support />
+        <Footer />
       </div>
     </section>
   );

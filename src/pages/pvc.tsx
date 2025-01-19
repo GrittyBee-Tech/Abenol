@@ -11,12 +11,12 @@ const Pvc = () => {
   return (
     <section>
       <Navbar />
-      <div className="lg:px-40 lg:py-16 py-8 px-8 bg-[#99FF99]">
-        <div className="grid lg:grid-flow-col lg:gap-16 gap-4">
-          <div>
+      <div className="lg:px-40 lg:py-16 py-8 px-8 lg:justify-normal justify-items-center bg-[#99FF99]">
+        <div className="grid lg:grid-flow-col lg:gap-7 gap-4">
+          <div className="lg:w-[600px]">
             <img src={image} alt="" />
           </div>
-          <div className="bg-white lg:p-14 p-4 rounded-3xl grid gap-4">
+          <div className="bg-white lg:p-14 p-4 lg:w-[600px] rounded-3xl grid gap-4">
             <p className="font-bold text-[#141414] font-Inter text-sm">
               PVC WAKA
             </p>

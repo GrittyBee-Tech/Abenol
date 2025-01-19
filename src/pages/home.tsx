@@ -17,6 +17,7 @@ const Home = () => {
       <Projects />
       <Join />
       <Support />
+      <Footer />
     </section>
   );
 };

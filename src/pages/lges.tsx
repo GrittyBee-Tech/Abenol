@@ -1,17 +1,22 @@
 import React from 'react';
 import image from '/src/assets/images/project.png';
 import Navbar from '../components/generic-layouts/navbar';
+import image5 from '/src/assets/images/facebook2.png';
+import image1 from '/src/assets/images/tiktok2.png';
+import image2 from '/src/assets/images/instagram2.png';
+import image3 from '/src/assets/images/twitter2.png';
+import image4 from '/src/assets/images/youtube2.png';
 
 const Lges = () => {
   return (
     <section>
       <Navbar />
-      <div className="lg:px-40 lg:py-16 py-8 px-8 bg-[#99FF99]">
-        <div className="grid lg:grid-flow-col lg:gap-16 gap-4">
-          <div>
+      <div className="lg:px-40 lg:py-16 py-8 px-4 lg:justify-normal justify-items-center bg-[#99FF99]">
+        <div className="grid lg:grid-flow-col lg:gap-7 gap-4">
+          <div className="lg:w-[600px]">
             <img src={image} alt="" />
           </div>
-          <div className="bg-white lg:p-14 p-4 rounded-3xl grid gap-4">
+          <div className="bg-white lg:p-14 p-4 lg:w-[600px] rounded-3xl grid gap-4">
             <p className="font-bold text-[#141414] font-Inter text-sm">
               LGES Project
             </p>
@@ -86,9 +91,26 @@ const Lges = () => {
               </p>
             </div>
 
-            <p className="font-bold text-[#141414] font-Inter text-sm">
-              Follow us to learn more
-            </p>
+            <div className="grid grid-flow-col w-max items-center gap-3">
+              <p className="font-bold text-[#141414] font-Inter text-sm">
+                Follow us to learn more
+              </p>
+              <a href="https://www.tiktok.com/@abenolng">
+                <img src={image1} alt="tiktok" />
+              </a>
+              <a href="https://x.com/Abenolng">
+                <img src={image3} alt="x" />
+              </a>
+              <a href="https://www.instagram.com/abenolng/">
+                <img src={image2} alt="instagram" />
+              </a>
+              <a href="https://www.youtube.com/@abenolng">
+                <img src={image4} alt="youtube" />
+              </a>
+              <a href="https://www.facebook.com/abenolng">
+                <img className="w-7 h-7" src={image5} alt="facebook" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

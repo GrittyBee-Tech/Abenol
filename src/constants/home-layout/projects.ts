@@ -38,6 +38,6 @@ export const PROJECTS_SCHEMA = [
     content:
       'An initiative that promotes charitable actions of young Nigerians, giving back to our country Nigeria, highlighting the beauty, culture, and resilience of the nation.',
     slug: 'Coming Soon ',
-    link: '',
+    link: '/uess-project',
   },
 ];

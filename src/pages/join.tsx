@@ -8,6 +8,7 @@ const JoinAbenol = () => {
     <section>
       <Navbar />
       <Join />
+      <Footer />
     </section>
   );
 };

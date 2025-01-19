@@ -11,15 +11,14 @@ import Lges from './pages/lges';
 import Pvc from './pages/pvc';
 import JoinAbenol from './pages/join';
 import Footer from './components/generic-layouts/footer';
-
 import Belleful from './pages/belle';
+import Uess from './pages/uess';
 
 const router = createBrowserRouter([
   {
     element: (
       <>
         <Outlet />
-        <Footer />
       </>
     ),
     children: [
@@ -50,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: '/belleful-project',
         element: <Belleful />,
+      },
+      {
+        path: '/uess-project',
+        element: <Uess />,
       },
       {
         path: '/donate',
