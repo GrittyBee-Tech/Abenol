@@ -10,7 +10,7 @@ const Footer = () => {
     <section className=" grid lg:px-10   lg:py-5 ">
       <div className="bg-[#141414] px-7 py-4 lg:rounded-3xl">
         <div className="lg:justify-normal mx-auto justify-items-center">
-          <div className="grid lg:grid-flow-col items-center justify-between">
+          <div className="grid lg:grid-flow-col gap-4 items-center justify-between">
             <div className="grid grid-flow-col items-center gap-5">
               <a
                 href="https://www.tiktok.com/@abenolng"
