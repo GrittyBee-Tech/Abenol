@@ -1,4 +1,5 @@
 import React from 'react';
+
 import image from '/src/assets/images/abenol.jpg';
 import Navbar from '../components/generic-layouts/navbar';
 import image5 from '/src/assets/images/facebook2.png';
@@ -20,6 +21,15 @@ const Uess = () => {
             <p className="font-bold text-[#141414] font-Inter text-sm">
               UESS Project (COMING SOON)
             </p>
+            <a
+              href="http://uess.abenolfoundation.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="underline font-bold text-[#3c12d4] ">
+                Visit Website
+              </p>
+            </a>
             <p className="font-bold text-[#141414] font-Inter text-xl">
               Project Overview
             </p>
