@@ -15,7 +15,7 @@ const Support = () => {
                 be a part of the change.
               </p>
             </div>
-            <div className="lg:grid lg:grid-cols-3 xt-4  p-7 lg:gap-3 gap-11 ">
+            <div className="lg:grid lg:grid-cols-3 px-3 xt-4  p-7 lg:gap-3 gap-11 ">
               <div className="rounded-3xl bg-white  p-8 hover:shadow-[#0a120f] shadow-2xl transition-opacity duration-300 ease-in-out opacity-100 z-10">
                 <p className="text-[#141414] font-bold text-2xl font-Inter">
                   Wema Bank
