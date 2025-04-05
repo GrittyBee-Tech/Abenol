@@ -18,18 +18,21 @@ const Uess = () => {
             <img className="w-full" src={image} alt="" />
           </div>
           <div className="bg-white lg:p-14 p-4 lg:w-[600px]  rounded-3xl grid gap-4">
-            <p className="font-bold text-[#141414] font-Inter text-sm">
-              UESS Project (COMING SOON)
-            </p>
-            <a
-              href="http://uess.abenolfoundation.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="underline font-bold text-[#3c12d4] ">
-                Visit Website
+            <div className="grid grid-flow-col justify-between items-center">
+              <p className="font-bold text-[#141414] font-Inter text-sm">
+                UESS PROJECT
               </p>
-            </a>
+              <a
+                href="http://uess.abenolfoundation.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="rounded-2xl px-5 py-2 font-Inter bg-[#99FF99] font-bold text-black ">
+                  Visit Website
+                </button>
+              </a>
+            </div>
+
             <p className="font-bold text-[#141414] font-Inter text-xl">
               Project Overview
             </p>
