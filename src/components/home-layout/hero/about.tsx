@@ -6,8 +6,8 @@ const About = () => {
   return (
     <section className="bg-about-pattern bg-no-repeat bg-cover -mt-32 ">
       <div className="relative">
-        <div className="lg:px-40   px-8 lg:py-32 py-8">
-          <div className=" grid lg:grid-flow-col  pt-24 justify-between lg:gap-52">
+        <div className="lg:px-40 px-8 lg:py-32 py-8">
+          <div className=" grid lg:grid-flow-col pt-32 lg:pt-24 justify-between lg:gap-52">
             <p className="grid lg:justify-start xt:text-3xl justify-items-center font-semibold font-Inter text-lg text-white">
               About Us
             </p>

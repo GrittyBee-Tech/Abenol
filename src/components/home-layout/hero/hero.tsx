@@ -5,7 +5,7 @@ import image2 from '/src/assets/images/hero-image2.png';
 import image3 from '/src/assets/images/hero-image3.jpg';
 import image4 from '/src/assets/images/hero-image4.jpg';
 // import image5 from '/src/assets/images/hero-image5.jpg';
-// import image6 from '/src/assets/images/hero-image6.jpg';
+import image6 from '/src/assets/images/hero-image6.jpg';
 import image7 from '/src/assets/images/hero-image7.jpg';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../../generic-layouts/navbar';
