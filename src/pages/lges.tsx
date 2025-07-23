@@ -37,7 +37,7 @@ const Lges = () => {
               </p>
               <p className="font-Inter text-sm">
                 Social Media Impact: Our social media campaign has garnered over
-                350,000 views and reached over 200,000 accounts organically,
+                1,000,000 views and reached over 400k+ accounts organically,
                 sparking conversations and inspiring youth to take action. With
                 our most viral video, the LG financial autonomy explanation.
                 Youth Engagement: We have received numerous direct messages from
