@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '/src/assets/images/project.png';
+import image from '/src/assets/images/project.jpg';
 import Navbar from '../components/generic-layouts/navbar';
 import image5 from '/src/assets/images/facebook2.png';
 import image1 from '/src/assets/images/tiktok2.png';

@@ -13,13 +13,17 @@ const Projects = () => {
         {PROJECTS_SCHEMA.map((r, i) => {
           return (
             <div key={i} className="relative ">
-              <div>
+              <div className="h-[642px]">
                 <span>
-                  <img src={r.image} alt="Project" />
+                  <img
+                    src={r.image}
+                    className="rounded-2xl h-auto"
+                    alt="Project"
+                  />
                 </span>
               </div>
-              <div className=" grid   justify-items-center">
-                <div className="bg-white hover:bg-[#090e02] text-[#141414]  hover:text-white grid gap-3 shadow-md rounded-2xl lg:p-5 p-3 absolute  w-[90%] lg:bottom-2 -bottom-14">
+              <div className=" grid lg:mt-24 justify-items-center">
+                <div className="bg-[#F0FFF0] hover:bg-[#090e02] text-[#141414]  hover:text-white grid gap-3 shadow-md rounded-2xl lg:p-5 p-3 absolute  w-[90%] lg:bottom-2 -bottom-14">
                   <p className="font-bold font-Inter lg:h-3 text-sm lg:text-xl">
                     {r.header}
                   </p>

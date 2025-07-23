@@ -1,7 +1,7 @@
-import image from '/src/assets/images/project.png';
-import image1 from '/src/assets/images/project1.png';
+import image from '/src/assets/images/project.jpg';
+import image1 from '/src/assets/images/project1.jpg';
 import image2 from '/src/assets/images/project2.png';
-import image3 from '/src/assets/images/abenol.jpg';
+import image3 from '/src/assets/images/project3.jpg';
 
 export const PROJECTS_SCHEMA = [
   {
@@ -36,7 +36,7 @@ export const PROJECTS_SCHEMA = [
     image: image3,
     header: 'UESS Project',
     content:
-      'An initiative that promotes charitable actions of young Nigerians, giving back to our country Nigeria, highlighting the beauty, culture, and resilience of the nation.',
+      'UESS provides a unique platform for students to acquire in-demand skills, connect with industry professionals and develop their entrepreneurial potential and employability skills by bridging the gap between academia and the professional world.',
     slug: 'Learn More',
     link: '/uess-project',
   },

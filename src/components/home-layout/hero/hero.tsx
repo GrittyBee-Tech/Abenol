@@ -1,7 +1,19 @@
 import React from 'react';
-import image from '/src/assets/images/hero-image.png';
+import image from '/src/assets/images/hero-image.jpg';
+import image1 from '/src/assets/images/hero-image1.png';
+import image2 from '/src/assets/images/hero-image2.png';
+import image3 from '/src/assets/images/hero-image3.jpg';
+import image4 from '/src/assets/images/hero-image4.jpg';
+// import image5 from '/src/assets/images/hero-image5.jpg';
+// import image6 from '/src/assets/images/hero-image6.jpg';
+import image7 from '/src/assets/images/hero-image7.jpg';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../../generic-layouts/navbar';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import '../../../App.css';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Hero = () => {
   const navigate = useNavigate();
@@ -26,13 +38,101 @@ const Hero = () => {
           </button>
         </div>
         <div className="lg:px-0 px-4 lg:pt-36 pt-8 z-50">
-          <span>
-            <img
-              className="lg:h-[580px] rounded-3xl lg:w-full"
-              src={image}
-              alt="hero-image"
-            />
-          </span>
+          <div
+            id="bullets"
+            className="absolute !top-[15.5rem] md:!top-[9rem] !left-1/2 !-translate-x-1/2 !bottom-auto !mx-auto !w-fit z-10"
+          />
+          <Swiper
+            slidesPerView={1}
+            modules={[Autoplay, Pagination]}
+            pagination={{
+              type: 'bullets',
+              el: '#bullets',
+              bulletActiveClass: 'active-bullet',
+              bulletClass: 'bullet',
+              clickable: true,
+            }}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            loop
+            speed={1000}
+            spaceBetween={32}
+          >
+            <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image1}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image2}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image3}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image4}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide>
+            {/* <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image5}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide> */}
+            {/* <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image6}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide> */}
+            <SwiperSlide className="">
+              <span>
+                <img
+                  className="lg:h-[580px] rounded-3xl lg:w-full"
+                  src={image7}
+                  alt="hero-image"
+                />
+              </span>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>
