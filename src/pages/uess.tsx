@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '/src/assets/images/abenol.jpg';
+import image from '/src/assets/images/project3.jpg';
 import Navbar from '../components/generic-layouts/navbar';
 import image5 from '/src/assets/images/facebook2.png';
 import image1 from '/src/assets/images/tiktok2.png';
@@ -37,9 +37,9 @@ const Uess = () => {
               Project Overview
             </p>
             <p className="font-Inter text-sm">
-              The University Empowerment and Skill Sharing (UESS) Project aims
-              to empower a minimum of 100,000 undergraduates across 20 tertiary
-              institutions.
+              The Undergraduate Empowerment and Sensitisation Scheme (UESS)
+              Project aims to empower a minimum of 100,000 undergraduates across
+              20 tertiary institutions.
             </p>
             <div className="grid gap-3">
               <p className="font-bold text-[#141414] font-Inter text-sm">
