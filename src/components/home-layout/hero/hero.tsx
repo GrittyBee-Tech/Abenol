@@ -4,7 +4,7 @@ import image1 from '/src/assets/images/hero-image1.png';
 import image2 from '/src/assets/images/hero-image2.png';
 import image3 from '/src/assets/images/hero-image3.jpg';
 import image4 from '/src/assets/images/hero-image4.jpg';
-// import image5 from '/src/assets/images/hero-image5.jpg';
+import image5 from '/src/assets/images/hero-image5.jpg';
 import image6 from '/src/assets/images/hero-image6.jpg';
 import image7 from '/src/assets/images/hero-image7.jpg';
 import { useNavigate } from 'react-router-dom';
@@ -105,7 +105,7 @@ const Hero = () => {
                 />
               </span>
             </SwiperSlide>
-            {/* <SwiperSlide className="">
+             <SwiperSlide className="">
               <span>
                 <img
                   className="lg:h-[580px] rounded-3xl lg:w-full"
@@ -113,7 +113,7 @@ const Hero = () => {
                   alt="hero-image"
                 />
               </span>
-            </SwiperSlide> */}
+            </SwiperSlide> 
             {/* <SwiperSlide className="">
               <span>
                 <img

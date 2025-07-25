@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '/src/assets/images/about.png';
+import about from '/src/assets/images/about-image.jpg';
 import Navbar from '../../generic-layouts/navbar';
 
 const Hero = () => {
