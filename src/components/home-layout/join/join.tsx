@@ -7,7 +7,7 @@ const Join = () => {
   const navigate = useNavigate();
   return (
     <section>
-      <div className="lg:px-40 px-8 lg:py-24 py-8">
+      <div className="lg:px-40 px-8 lg:py-10 py-8">
         <div className="grid lg:grid-cols-2  gap-8">
           <div className="pt-10 ">
             <p className="text-[#023002] grid lg:justify-start justify-items-center font-bold lg:text-6xl text-2xl font-Inter">
