@@ -20,12 +20,12 @@ const Hero = () => {
   return (
     <section className="bg-hero-pattern bg-no-repeat ">
       <Navbar />
-      <div className="lg:px-40 lg:pt-10">
+      <div className="lg:px-40 px-6 lg:pt-10">
         <div className=" relative grid justify-items-center lg:pt-28 gap-6">
           <p className="font-bold lg:text-6xl text-2xl  w-8/12 lg:w-5/12 text-[#000100] font-Inter pt-9 text-center">
             Participate, unite & take action
           </p>
-          <p className="lg:w-5/12  text-center font-Inter">
+          <p className="lg:w-5/12   text-center font-Inter">
             We strive to foster a generation of informed, active, and socially
             responsible citizens capable of driving positive change in their
             communities and the nation.
@@ -105,7 +105,7 @@ const Hero = () => {
                 />
               </span>
             </SwiperSlide>
-             <SwiperSlide className="">
+            <SwiperSlide className="">
               <span>
                 <img
                   className="lg:h-[580px] rounded-3xl lg:w-full"
@@ -113,7 +113,7 @@ const Hero = () => {
                   alt="hero-image"
                 />
               </span>
-            </SwiperSlide> 
+            </SwiperSlide>
             {/* <SwiperSlide className="">
               <span>
                 <img
